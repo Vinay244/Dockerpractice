@@ -35,6 +35,13 @@ pipeline{
               }
               
         }
+        
+            stage('holiday'){
+                  steps
+                  {
+                        echo 'Holiday start'
+                  }
+            }
                   
     }
 }
